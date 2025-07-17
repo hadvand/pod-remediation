@@ -196,10 +196,6 @@ To add new scenarios:
 2. Add scenario configuration to the `SCENARIOS` dictionary
 3. Update the context collection logic in `perceive_context()` if needed
 
-## License
-
-This tool is provided as-is for educational and demonstration purposes.
-
 ## Disclaimer
 
 This script creates and deletes Kubernetes resources. NEVER use in a production environment.
