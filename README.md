@@ -28,7 +28,7 @@ This script creates various Kubernetes pod failure scenarios and uses an LLM to 
 
 ### LLM API Access
 
-- Access to the SolarWinds LLM Gateway (or modify the API configuration for your LLM service)
+- Access to the LLM Gateway (or modify the API configuration for your LLM service)
 - Valid JWT token for authentication (ssp dev bot will give you the token)
 
 ## Installation
