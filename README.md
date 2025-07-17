@@ -5,6 +5,7 @@ A tool for testing and demonstrating AI-powered Kubernetes pod failure diagnosis
 ## Overview
 
 This script creates various Kubernetes pod failure scenarios and uses an LLM to automatically diagnose and provide remediation plans. It demonstrates how AI can assist in troubleshooting common Kubernetes issues by analyzing pod states, logs, and cluster configuration.
+<img width="1402" height="1293" alt="image" src="https://github.com/user-attachments/assets/8d0298b2-e8e2-4488-aeda-d14f67541cfb" />
 
 ## Prerequisites
 
