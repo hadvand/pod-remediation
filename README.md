@@ -1,7 +1,5 @@
 # Kubernetes LLM Diagnostics Test Harness
 
-A tool for testing and demonstrating AI-powered Kubernetes pod failure diagnosis and remediation using SWO LLM Gateway.
-
 ## Overview
 
 This script creates various Kubernetes pod failure scenarios and uses an LLM to automatically diagnose and provide remediation plans. It demonstrates how AI can assist in troubleshooting common Kubernetes issues by analyzing pod states, logs, and cluster configuration.
