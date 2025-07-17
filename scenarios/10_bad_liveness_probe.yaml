@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bad-liveness-pod
+spec:
+  containers:
+  - name: main-app
+    image: nginx
+    livenessProbe:
+      httpGet:
+        path: /something
+        port: 80
+      initialDelaySeconds: 5
+      periodSeconds: 5

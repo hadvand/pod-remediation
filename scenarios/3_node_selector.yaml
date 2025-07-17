@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-needs-label
+spec:
+  nodeSelector:
+    hardware: "gpu-accelerated-v9000"
+  containers:
+  - name: main-app
+    image: nginx

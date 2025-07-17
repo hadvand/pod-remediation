@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: buggy-app-pod
+spec:
+  containers:
+  - name: main-app
+    image: busybox:1.28
+    command: ["sh", "-c", "exit 1"]

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bad-readiness-pod
+  labels:
+    app: bad-readiness
+spec:
+  containers:
+  - name: main-app
+    image: nginx
+    readinessProbe:
+      exec:
+        command:
+        - cat
+        - /tmp/something
+      initialDelaySeconds: 5
+      periodSeconds: 5
